@@ -107,6 +107,10 @@ namespace BPNN
             Console.WriteLine(ctr_error +" number of errors");
 
         }
-    
+
+        private void Output_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

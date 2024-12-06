@@ -40,9 +40,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(32, 178);
+            this.button1.Location = new System.Drawing.Point(32, 273);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 23);
+            this.button1.Size = new System.Drawing.Size(122, 48);
             this.button1.TabIndex = 0;
             this.button1.Text = "create BPNN";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,9 +50,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(160, 178);
+            this.button2.Location = new System.Drawing.Point(174, 273);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(172, 23);
+            this.button2.Size = new System.Drawing.Size(172, 48);
             this.button2.TabIndex = 1;
             this.button2.Text = "Train the neural net";
             this.button2.UseVisualStyleBackColor = true;
@@ -60,30 +60,31 @@
             // 
             // InputA
             // 
-            this.InputA.Location = new System.Drawing.Point(22, 90);
+            this.InputA.Location = new System.Drawing.Point(200, 90);
             this.InputA.Name = "InputA";
             this.InputA.Size = new System.Drawing.Size(100, 22);
             this.InputA.TabIndex = 2;
             // 
             // InputB
             // 
-            this.InputB.Location = new System.Drawing.Point(137, 90);
+            this.InputB.Location = new System.Drawing.Point(200, 129);
             this.InputB.Name = "InputB";
             this.InputB.Size = new System.Drawing.Size(100, 22);
             this.InputB.TabIndex = 3;
             // 
             // Output
             // 
-            this.Output.Location = new System.Drawing.Point(492, 90);
+            this.Output.Location = new System.Drawing.Point(433, 138);
             this.Output.Name = "Output";
             this.Output.Size = new System.Drawing.Size(249, 22);
             this.Output.TabIndex = 0;
+            this.Output.TextChanged += new System.EventHandler(this.Output_TextChanged);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(338, 178);
+            this.button3.Location = new System.Drawing.Point(366, 273);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(172, 23);
+            this.button3.Size = new System.Drawing.Size(172, 48);
             this.button3.TabIndex = 4;
             this.button3.Text = "Test";
             this.button3.UseVisualStyleBackColor = true;
@@ -91,14 +92,14 @@
             // 
             // InputC
             // 
-            this.InputC.Location = new System.Drawing.Point(243, 90);
+            this.InputC.Location = new System.Drawing.Point(200, 170);
             this.InputC.Name = "InputC";
             this.InputC.Size = new System.Drawing.Size(100, 22);
             this.InputC.TabIndex = 5;
             // 
             // InputD
             // 
-            this.InputD.Location = new System.Drawing.Point(349, 90);
+            this.InputD.Location = new System.Drawing.Point(200, 212);
             this.InputD.Name = "InputD";
             this.InputD.Size = new System.Drawing.Size(100, 22);
             this.InputD.TabIndex = 6;
